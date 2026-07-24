@@ -1,8 +1,25 @@
 aid: cnano
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cnano.png
 name: CNANO
-description: 'CNANO is a company surfaced as a portfolio company of idg-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer-technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'CNANO (Jiangsu Cnano Technology Co., Ltd., Shanghai STAR Market 688116) is a carbon nanotube
+  and graphene materials manufacturer founded in 2011 and headquartered in Zhenjiang, China, with a US arm
+  (Cnano USA) in Santa Clara, California. It develops and mass-produces multi-wall and single-wall carbon
+  nanotube powders, conductive pastes, graphene composite pastes, and conductive masterbatches used as
+  additives in lithium-ion batteries, conductive polymer composites, antistatic coatings, and tire rubber
+  reinforcement. It is one of the largest global producers of multi-wall carbon nanotubes for battery
+  applications. Backed by IDG Capital. This is a physical-materials manufacturer with no public developer
+  API, documentation portal, or SDK surface.'
 url: https://raw.githubusercontent.com/api-evangelist/cnano/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,29 @@ x-backed-by:
 - idg-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Consumer Technology
+- Carbon Nanotubes
+- Graphene
+- Advanced Materials
+- Battery Materials
+- Nanotechnology
+- Manufacturing
+common:
+- type: Website
+  url: https://www.cnanotechnology.com/en/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
